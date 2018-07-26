@@ -38,4 +38,4 @@ function binarySearch($file_name, $search_key){
   return "undef";
 }
 
-echo binarySearch("test.txt", "9yG8fZtQK");
+echo binarySearch("$file_name", "$search_key");
