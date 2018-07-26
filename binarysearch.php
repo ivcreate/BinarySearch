@@ -1,3 +1,4 @@
+<?php
 function binarySearch($file_name, $search_key){
   $file = new SplFileObject($file_name);  
   $file->seek($file->getSize());  
